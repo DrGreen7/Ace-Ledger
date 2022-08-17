@@ -1,0 +1,265 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*utility classes */
+
+.bg-primary{
+  background: #E23E57;
+  color: white;
+}
+
+.bg-dark{
+  background: #333;
+  color: white;
+}
+
+.text-primary{
+  color: #E23E57;
+}
+
+.l-heading{
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.m-heading{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.lead{
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin-bottom: 1.4rem;
+}
+
+.btn{
+  color: white;
+  background: #E23E57;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover{
+  background:#c9374d ;
+}
+
+.btn-dark{
+  background: #333;
+  color: white;
+}
+
+/* navbar */
+#navbar{
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#navbar ul{
+  list-style: none;
+  display: flex;
+  
+}
+
+#navbar ul li{
+  padding:0.7rem 0 ;
+  flex: 1;
+}
+
+#navbar ul li a{
+  color: white;
+  margin: 0 0.7rem;
+}
+
+#navbar ul li:hover{
+  background: #E23E57;
+  border-radius: 5px;;
+}
+
+/*showcase*/
+
+#showcase{
+  background:  url('../img/bodybg.jpg') no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+  
+}
+
+#showcase .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  /*overlay*/
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 3rem;
+  
+}
+
+/* section:what we do*/
+
+#what{
+  padding: 2rem;
+}
+
+#what .container{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#what .items{
+  display: flex;
+  padding: 0.5rem;
+
+}
+
+#what .items .item{
+  flex: 1;
+  padding: 0 1rem;
+}
+
+#what .items .item i{
+  background: #E23E57;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem ;
+}
+
+#what .items .item h3{
+  margin-bottom: 1rem;
+}
+
+/* section:who*/
+
+#who{
+  display: flex;
+}
+
+#who div{
+  flex:1;
+}
+
+#who .who-img{
+  background: url('../img/who-img.jpg') no-repeat center center/cover;
+
+}
+
+#who .who-content{
+  padding: 2rem;
+  line-height: 1.5rem;
+}
+
+#who .who-content h3{
+  margin-top: 1rem;
+}
+
+#who .who-content ul{
+  list-style: none;
+  margin-top: 1rem;
+  line-height: 1.8rem;
+}
+
+/* section:our clients*/
+
+#client{
+  padding: 2rem;
+  text-align: center;
+}
+
+#client .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#client .container i{
+  margin: 0 1rem;
+}
+
+/*section:contact*/
+
+#contact{
+  display: flex;
+
+}
+
+#contact div{
+  flex: 1;
+}
+
+#contact .contact-form{
+  padding: 1.5rem;
+  line-height: 1.4;
+}
+
+#contact .contact-form .m-heading{
+  margin-bottom: 0;
+}
+
+#contact .contact-form label{
+  display: block;
+  margin-top: 1rem;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+  width: 90%;
+  font-size: 0.9rem;
+  padding: 0.2rem;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  border: lightgray solid 1px;
+}
+
+#contact .contact-form input:focus,
+#contact .contact-form textarea:focus{
+  outline: none;
+}
+
+#contact .contact-form .btn{
+  border: none;
+  margin-top: 0.6rem;
+  padding: 0.6rem 2rem;
+  width: 40%;
+}
+
+/*footer*/
+footer{
+  padding: 1rem;
+}
+
+footer .container{
+  width: 80%;
+  margin: auto;
+  font-size: 0.6rem;
+  text-align: center;
+}

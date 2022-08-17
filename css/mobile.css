@@ -1,0 +1,72 @@
+/*navbar*/
+@media(max-width:500px){
+  /*navbar*/
+  #navbar{
+    display: block;
+    padding: 0.8rem 0.5rem;
+  }
+  
+  #navbar .logo{
+    text-align: center;
+    margin-bottom: 1rem ;
+  }
+  
+  #navbar ul  {
+    align-items: center;
+    justify-content: center;
+  }
+  #navbar ul li{
+    margin: 0;
+    text-align: center;
+  }
+
+  #navbar ul li a{
+    padding: 0.7rem;
+    margin: 0;
+  }
+
+  /*showcase*/
+  #showcase .container{
+    top: 120px;
+    
+  }
+
+ /* what we do*/
+ #what .items{
+  display: block;
+ }
+ 
+ #what .items .item{
+  margin-bottom: 2rem;
+ }
+
+ /*who we are */
+ #who{
+  display: block;
+ }
+ #who .who-img{
+  display: none;
+ }
+
+ /*our clinets*/
+ #first{
+  display: none;
+ }
+ #last{
+  display: none;
+ }
+
+  /*contact*/
+  #contact{
+    display: block;
+  }
+
+  #contact .contact-form{
+    border-bottom: #333 solid 4px;
+  }
+
+  #contact #map{
+    height: 200px;
+    
+  }
+}
